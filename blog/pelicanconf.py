@@ -33,7 +33,7 @@ PLUGINS = ["jalali"]
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 GZIP_CACHE = True
-
+GOOGLE_ANALYTICS = 'UA-52755705-2'
 META_FA_KEYWORDS = u"mirad,میراد,بلاگ,وبلاگ,وبلاگ میراد,بلاگ میراد,نرم‌افزار میراد,اپلیکیشن,موبایل,نرم‌افزار موبایل میراد,اخبار,مقاله,مجله,ورزش,سیاسی,تکنولوژی,اقتصادی,روزنامه,نرم‌افزار,اندروید,خوراک,فید,خبرخوان,میراد,خبر شخصی,خبر هوشمن"
 META_EN_KEYWORDS = u"rss,mirad,news,blog,mirad blog,weblog,aggregator, ios, iphone, application, mobile, android"
 META_DESC = u"بلاگ میراد ‌|‌ در این بلاگ شما آخرین رویدادها و خبرهای مربوط به توسعه‌ی نرم افزار میراد را می‌خوانید."
