@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>{% block title %}{{ SITENAME }}{%endblock%}</title>
+        <meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="shortcut icon" href="{{ SITEURL }}/theme/images/favicon.ico"/>
+        <link rel="stylesheet" href="{{ SITEURL }}/theme/css/{{ CSS_FILE }}" type="text/css" />
+        {% if FEED_ALL_ATOM %}
+        <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_ATOM }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Atom Feed" />
+        {% endif %}
+        {% if FEED_ALL_RSS %}
+        <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_RSS }}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} RSS Feed" />
+        {% endif %}
+
+        <!--[if IE]>
+                <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+        <!--[if lte IE 7]>
+                <link rel="stylesheet" type="text/css" media="all" href="{{ SITEURL }}/css/ie.css"/>
+                <script src="{{ SITEURL }}/js/IE8.js" type="text/javascript"></script><![endif]-->
+
+        <!--[if lt IE 7]>
+                <link rel="stylesheet" type="text/css" media="all" href="{{ SITEURL }}/css/ie6.css"/><![endif]-->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js" type="text/javascript"></script>
+
+
+</head>
+
+<body id="index" class="home">
+{% include 'github.html' %}
+	
+  <!-- <header id="banner" class="body"> -->
+  <!--               <h1><a href="{{ SITEURL }}/"><img src="http://www.launchyard.com/images/logo.png" />{% if SITESUBTITLE %}<strong>{{ SITESUBTITLE }}</strong>{% endif %}</a></h1> -->
+  <!--       </header> --> 
+  <div class="logo-bg">
+  <div class="LaunchyardDetail">
+    <p>
+    <a href="{{ SITEURL }}/"><img class="blogLogo" src="{{ SITEURL }}/theme/images/mirad.png" style="border-radius:20px;width:60%;border:2px solid #ffffff;"alt="میراد"></a>
+    </p>
+    <p style="font-family:dinar;font-size:1.8em;text-align:center;color:#ffffff;margin-bottom:0.7em;">
+    میراد
+    </p>
+    <p class="fullSizePanel social">
+      <a class="socialMini" href="{{ SITEURL }}/">
+        خانه<i class="icon-home"></i>
+      </a>
+    </p>
+    <p class="fullSizePanel social">
+      <a href="mailto:mirad@mirad.flowdock.com?Subject=From%20Blog" target="_top">
+        ایمیل<i class="icon-email"></i>
+      </a>
+    </p>
+    <p class="fullSizePanel social">
+      <a href="https://www.facebook.com/miradapp" target="_blank">
+        فیسبوک<i class="icon-facebook-squared"></i>
+      </a>
+    </p>
+    <p class="fullSizePanel social">
+      <a href="https://twitter.com/mirad_ir" target="_blank">
+        توییتر<i class="icon-twitter-squared"></i>
+      </a>
+    </p>
+    <p class="fullSizePanel social">
+      <a href="feed://blog.mirad.ir/feeds/all.atom.xml" target="_blank">
+        خوراک<i class="icon-rss-squared"></i>
+      </a>
+    </p>
+    <p class="miniSizePanel">
+      <a class="socialMini" href="feed://blog.mirad.ir/feeds/all.atom.xml" target="_blank">
+        <i class="icon-rss-squared"></i>
+      </a>
+      <a class="socialMini" href="https://twitter.com/mirad_ir" target="_blank">
+        <i class="icon-twitter-squared"></i>
+      </a>
+      <a class="socialMini" href="https://www.facebook.com/miradapp" target="_blank">
+        <i class="icon-facebook-squared"></i>
+      </a>
+      <a class="socialMini" href="mailto:mirad@mirad.flowdock.com?Subject=From%20Blog" target="_blank">
+        <i class="icon-email"></i>
+      </a>
+      <a class="socialMini" href="{{ SITEURL }}/">
+        <i class="icon-home"></i>
+      </a>
+    </p>
+    <!--
+    <ul class="miniSizePanel socialBar">
+      <li class="socialBar">
+      <span class="icon-rss-squared social"></span>
+      </li>
+      <li class="socialBar">
+      <span class="icon-twitter-squared social"></span>
+      </li>
+      <li class="socialBar">
+      <span class="icon-facebook-squared social"></span>
+      </li>
+      <li class="socialBar">
+      <span class="icon-email social"></span>
+      </li>
+      <li class="socialBar">
+      <span class="icon-home social"></span>
+      </li>
+      <li class="socialBar">
+      <span class="icon-home social"></span>
+      </li>
+    </ul>
+
+
+
+    <ul class="socialBar">
+      <li class="socialBar">
+        
+      </li>
+      <li class="socialBar">
+        
+      </li>
+      <li class="socialBar">
+        <span class="icon-github-squared socialItem"></span>
+      </li>
+
+    </ul>-->
+    <!--<p><a id="sitesubtitle" href="{{ SITEURL }}/">{% if SITESUBTITLE %}{{ SITESUBTITLE }}{% endif %}</a></p>
+    <h6></h6>-->
+    <!--{% if SITETAGLINE %}<p id="sitetagline">{{ SITETAGLINE }}</p>{% endif %}
+    <p><a id="aboutlink" href="{{ SITEURL }}/pages/about.html">about</a></p>-->
+
+    <!-- <ul> -->
+    <!--   <li><a href="{{ SITEURL }}/pages/about.html">about</a></li> -->
+      <!-- <li><a href="{{ SITEURL }}/pages/about.html">articles</a></li> -->
+<!-- {% if articles %} -->
+<!--         <br/> -->
+<!--         <br/> -->
+<!--     {% for article in articles %} -->        
+<!--       <li><a href="">{{ article.title }}</a></li> -->
+<!--     {% endfor %} -->
+<!-- {% endif %} -->
+    <!-- </ul> -->
+
+    <!-- This belongs in the about page -->
+      <!-- {% for name, link in SOCIAL %} -->
+      <!-- <a href="{{ link }}">{{ name }}</a> -->
+      <!-- <br/> -->
+      <!-- {% endfor %} -->
+
+<!-- {% include 'categories.html' %} -->
+  </div>
+  </div>
+
+        {% block content %}
+        {% endblock %}
+        <section id="extras" >
+        
+        </section><!-- /#extras -->
+	
+        <footer id="contentinfo" >
+                <address id="about" class="vcard ">
+                Powered by Mirad team</a>.
+		
+                </address><!-- /#about -->
+		
+
+                
+        </footer><!-- /#contentinfo -->
+
+{% include 'analytics.html' %}
+{% include 'piwik.html' %}
+{% include 'facebook_script.html' %}
+{% include 'disqus_script.html' %}
+</body>
+</html>

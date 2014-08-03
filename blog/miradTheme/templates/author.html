@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>{% block title %}{{ SITENAME }} - {{ author }}{% endblock %}</title>
+        <meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="shortcut icon" href="{{ SITEURL }}/theme/images/favicon.ico"/>
+        <link rel="stylesheet" href="{{ SITEURL }}/theme/css/{{ CSS_FILE }}" type="text/css" />
+        {% if FEED_ALL_ATOM %}
+        <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_ATOM }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Atom Feed" />
+        {% endif %}
+        {% if FEED_ALL_RSS %}
+        <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_RSS }}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} RSS Feed" />
+        {% endif %}
+
+        <!--[if IE]>
+                <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+        <!--[if lte IE 7]>
+                <link rel="stylesheet" type="text/css" media="all" href="{{ SITEURL }}/css/ie.css"/>
+                <script src="{{ SITEURL }}/js/IE8.js" type="text/javascript"></script><![endif]-->
+
+        <!--[if lt IE 7]>
+                <link rel="stylesheet" type="text/css" media="all" href="{{ SITEURL }}/css/ie6.css"/><![endif]-->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js" type="text/javascript"></script>
+
+
+</head>
+
+<body id="index" class="home">
+
+  <div class="logo-bg">
+  <a href="{{ SITEURL }}/">
+  <p id="backToBlogFull">
+  بازگشت به وبلاگ
+  </p>
+  </a>
+  <div class="LaunchyardDetail" style="top:13%;">
+    <p>
+    <img class="blogLogo" src="{{ SITEURL }}/theme/images/unknown.jpg" style="border-radius:20px;width:60%;border:2px solid #ffffff;"alt="میراد">
+    </p>
+    <p style="font-family:dinar;font-size:1.8em;text-align:center;color:#ffffff;margin-bottom:0.7em;">
+    {{ author }}
+    </p>
+    <p id="websitePlate" class="fullSizePanel social">
+      <a id="website" href="http://amirajorloo.com" target="_blank">
+      صفحه شخصی<i class="icon-globe"></i>
+      </a>
+    </p>
+    <p id="emailPlate" class="fullSizePanel social">
+      <a id="email" href="mailto:someone@example.com?Subject=Hello%20again" target="_top">
+      ایمیل<i class="icon-email"></i>
+      </a>
+    </p>
+    <p id="facebookPlate" class="fullSizePanel social">
+      <a id="facebook" href="http://amirajorloo.com" target="_blank">
+      فیسبوک<i class="icon-facebook-squared"></i>
+    </p>
+    <p id="twitterPlate" class="fullSizePanel social">
+      <a id="twitter" href="http://amirajorloo.com" target="_blank">
+      توییتر<i class="icon-twitter-squared"></i>
+      </a>
+    </p>
+    <p id="instagramPlate" class="fullSizePanel social">
+      <a id="instagram" href="http://amirajorloo.com" target="_blank">
+      اینستاگرام<i class="icon-instagramm"></i>
+      </a>
+    </p>
+    <p id="githubPlate" class="fullSizePanel social">
+      <a id="github" href="http://amirajorloo.com" target="_blank">
+      گیت هاب<i class="icon-github-squared"></i>
+      </a>
+    </p>
+    <p class="miniSizeAuthorPanel">
+      <a id="githubMini" class="socialMini" href="" target="_blank">
+        <i class="icon-github-squared "></i>
+      </a>
+      <a id="instagramMini" class="socialMini" href="" target="_blank">
+        <i class="icon-instagramm"></i>
+      </a>
+      <a id="twitterMini" class="socialMini" href="" target="_blank">
+        <i class="icon-twitter-squared"></i>
+      </a>
+      <a id="facebookMini" class="socialMini" href="" target="_blank">
+        <i class="icon-facebook-squared"></i>
+      </a>
+      <a id="emailMini" class="socialMini" href="" target="_blank">
+        <i class="icon-email"></i>
+      </a>
+      <a id="websiteMini" class="socialMini" href="" target="_blank">
+        <i class="icon-globe"></i>
+      </a>
+    </p>
+	<a href="{{ SITEURL }}/">
+		<p id="backToBlogMini">
+		بازگشت به وبلاگ
+		</p>
+	</a>
+  </div>
+  </div>
+
+		<section id="content" >
+		    <div class="body">
+		      <article>
+		        <header>
+		          <h1 class="entry-title">
+		            {{ author}}</h1>
+		        </header>
+
+		        <div class="entry-content">
+		        <p style="margin-top:1em;" id="bioPlate">
+
+		        زمانی که استیو جابز در سال ۱۹۹۷ پس از تاسیس NeXT مجددا به اپل بازگشت، همراه با خود دو مفهوم بسیار مهم آورده بود که بدون رعایت آنها مطمئنا اپل هرگز به این موفقیت فعلی دست نمی یافت.
+
+باید اعتراف کرد هرکسی ذهن خلاق استیو جابز را ندارد ولی می توان از آن دو مفهوم که باعث موفقیت اپل شد درس گرفت و آن را در هر استارت آپی پیاده سازی کرد.
+
+اگر شرکت یا استارت آپ خود را احداث کرده اید و به دنبال راه هایی برای موفقیت می گردید، ادامه مطلب را از دست ندهید.
+
+۱ – قابلیت هایی ایجاد کنید تا بارها و بارها برنده شوید
+مفهوم اول این است که یک ساختار با ثبات ایجاد کنید تا استارت آپ شما سهم بازار رقبا را برباید و در اختیار خود در بیاورد. به طور مثال این چهار قابلیتی است که اپل در سه بازار پخش کننده های MP3، تلفن های هوشمند و تبلت ها پیاده کرد:
+
+- برتری طراحی: همه می دانیم که استیو جابز وسواس عجیبی روی ظرافت و زیبایی محصولات اپل داشت. او همیشه از این موضوع اطمینان حاصل می کرد که محصولات مختلف به راحتی با هم کار خواهند کرد. توجه جابز به جزئیات باعث می شد مصرف کنندگان تمایل بیشتری به محصولات اپل پیدا کنند.
+
+- جادوی بازاریابی: اپل تبلیغات به یادماندنی ای دارد. استیو جابز یکی از بهترین مجری های معرفی محصولات جدید بود و فروشگاه های اپل همیشه کاربران را با ارائه خدمات عالی خوشحال می کنند.
+
+- ساختار اکوسیستم: جابز در ایجاد محتوا و خدمات که باعث می شد خریداران مایل به خرید محصولات سخت افزاری می شدند، بسیار سرآمد بود. نمونه بارز آنها آیتیونز و اپ استور است.
+
+- بهره وری زنجیره ای تامین: به لطف تیم کوک اپل توانست به خوبی یک زنجیره تامین قطعات در هنگ کنگ – فاکسکان- بسازد به همین دلیل هزینه ساخت محصولات تا حد بسیاری پایین آمد. در نتیجه تا ۷۰ درصد سود ناخالص و ۴۴٪ حق بیمه بیشتر از دیگر رقبا دارد.
+
+اپل قادر به اعمال و اصلاح این قابلیت ها برای گرفتن سهم در این سه بازار بزرگ است. بازاری که پیش از اپل هم وجود داشت ولی این شرکت نقش بسیار پر رنگی در اعمال تغییرات در آن ایفا کرد.
+
+۲ – حفظ حرکت چرخه ارزش
+مفهوم دوم “چرخه ارزش” است که استیو جابز به آن مسلط بود. یک شرکت برای یک عملکرد برتر باید بتواند حرکت چرخ استراتژی را از طریق سه فرآیند مجزا حفظ کند:
+
+- ایجاد ارزش: به زبان ساده یعنی طراحی و بازاریابی محصولات به گونه ای باشد که کاربران نیازهای خود را در آنها ببینند و متعاقبا آنها را مشتاق تهیه آن محصولات کند.
+
+- جذب ارزش: مورد دوم یعنی قیمت ها را تا حد کافی (و نه بیشتر) بالا نگه داریم که یک بازگشت سرمایه مطمئن برای سهامداران، حقوق کارمندان و تامین کنندگان داشته باشیم و همچنین بتوانیم محصولات جدید اختراع کنیم.
+
+- تجدید ارزش: یک شرکت برای اینکه بتواند همچنان از رقبا جلوتر باشد باید همواره سیگنال های بازار را دریافت کند. چرا که نیازهای مشتریان تغییر می کند و باید زودتر از دیگر شرکت ها پاسخگوی کاربران باشد.
+
+اپل تا زمانی که استیو جابز در قید حیات بود، چرخه ارزش را فرا گرفت. با وجود اینکه نزدیک به سه سال است که تیم کوک مسئولیت اپل را به عهده گرفته، حرکت این چرخه متوقف نشده. اما متاسفانه به باور خیلی تحلیلگران، اپل در “تجدید ارزش” دچار مشکل شده است. شاید تیم کوک در آینده به همه ثابت کند که این تصور اشتباه است.
+
+اما در عین حال شما باید این سه درس را برای موفقیت فرا بگیرید: اول قابلیت های استارت آپ شما باید اثبات شود و مراحل ایجاد ارزش و فرایند های جذب ارزش را طی کنید.
+
+سپس شما باید قابلیت ها را در به نقاطی اعمال کنید تا در تجدید ارزش بیشترین ارزش را پیدا کنند. مانند اپل که ارزش ساخته شده توسط آیپاد را با موفقیت به آیفون منتقل کرد.
+
+در نهایت باید گفت اگر شرکت شما حرکت چرخه استراتژی را متوقف کند، منجر به شکست شما و استارت آپ تان خواهد شد.
+</p>
+		        </div><!-- /.entry-content -->
+
+		      </article>
+		    </div>
+		</section>
+        <section id="extras" >
+        
+        </section><!-- /#extras -->
+	
+        <footer id="contentinfo" >
+                <address id="about" class="vcard ">
+                Powered by Mirad team</a>.
+		
+                </address><!-- /#about -->
+		
+
+                
+        </footer><!-- /#contentinfo -->
+
+{% include 'analytics.html' %}
+{% include 'piwik.html' %}
+{% include 'facebook_script.html' %}
+{% include 'disqus_script.html' %}
+</body>
+{% if author == 'وحید خرازی' %}
+<script type="text/javascript">
+    document.getElementById('websitePlate').style.display='none';
+    document.getElementById('instagramPlate').style.display='none';
+    document.getElementById('twitterPlate').style.display='none';
+    document.getElementById('github').href='https://github.com/kharazi';
+    document.getElementById('facebook').href='https://www.facebook.com/vahid.kharazi.9';
+    document.getElementById('email').href='mailto:vahid@kharazi.com?Subject=From%20Blog';
+
+    document.getElementById('websiteMini').style.display='none';
+    document.getElementById('instagramMini').style.display='none';
+    document.getElementById('twitterMini').style.display='none';
+    document.getElementById('githubMini').href='https://github.com/kharazi';
+    document.getElementById('facebookMini').href='https://www.facebook.com/vahid.kharazi.9';
+    document.getElementById('emailMini').href='mailto:vahid@kharazi.com?Subject=From%20Blog';
+
+    document.getElementById('bioPlate').innerHTML='';
+</script>
+{% endif %}
+{% if author == 'آرین باقی' %}
+<script type="text/javascript">
+    document.getElementById('websitePlate').style.display='none';
+    document.getElementById('facebook').href='https://www.facebook.com/ar.baghi';
+    document.getElementById('github').href='https://github.com/aryanbaghi';
+    document.getElementById('twitter').href='https://twitter.com/aryanbaghi';
+    document.getElementById('instagram').href='http://instagram.com/aryanbaghi';    
+    document.getElementById('email').href='mailto:aryan.baghi.ce@gmail.com?Subject=From%20Blog';
+
+    document.getElementById('websiteMini').style.display='none';
+    document.getElementById('facebookMini').href='https://www.facebook.com/ar.baghi';
+    document.getElementById('githubMini').href='https://github.com/aryanbaghi';
+    document.getElementById('twitterMini').href='https://twitter.com/aryanbaghi';
+    document.getElementById('instagramMini').href='http://instagram.com/aryanbaghi';    
+    document.getElementById('emailMini').href='mailto:aryan.baghi.ce@gmail.com?Subject=From%20Blog';
+
+    document.getElementById('bioPlate').innerHTML='';
+</script>
+{% endif %}
+{% if author == 'سینا محمودی' %}
+<script type="text/javascript">
+    document.getElementById('websitePlate').style.display='none';
+    document.getElementById('facebookPlate').style.display='none';
+    document.getElementById('github').href='https://github.com/s1na';
+    document.getElementById('twitter').href='https://twitter.com/s1nam';
+    document.getElementById('instagram').href='http://instagram.com/s1nam';    
+    document.getElementById('email').href='mailto:itz.s1na@gmail.com?Subject=From%20Blog';
+
+    document.getElementById('websiteMini').style.display='none';
+    document.getElementById('facebookMini').style.display='none';
+    document.getElementById('githubMini').href='https://github.com/s1na';
+    document.getElementById('twitterMini').href='https://twitter.com/s1nam';
+    document.getElementById('instagramMini').href='http://instagram.com/s1nam';    
+    document.getElementById('emailMini').href='mailto:itz.s1na@gmail.com?Subject=From%20Blog';
+
+    document.getElementById('bioPlate').innerHTML='';
+</script>
+{% endif %}
+{% if author == 'امیر آجورلو' %}
+<script type="text/javascript">
+    document.getElementById('websitePlate').href='amirajorloo.com';
+    document.getElementById('facebook').href='https://www.facebook.com/amir.ajorloo';
+    document.getElementById('github').href='https://github.com/theSinner';
+    document.getElementById('twitter').href='https://twitter.com/the13thsinner';
+    document.getElementById('instagram').href='http://instagram.com/thesinner13';
+    document.getElementById('email').href='mailto:amirajorloo@gmail.com?Subject=From%20Blog';
+
+    document.getElementById('websiteMini').href='amirajorloo.com';
+    document.getElementById('facebookMini').href='https://www.facebook.com/amir.ajorloo';
+    document.getElementById('githubMini').href='https://github.com/theSinner';
+    document.getElementById('twitterMini').href='https://twitter.com/the13thsinner';
+    document.getElementById('instagramMini').href='http://instagram.com/thesinner13';
+    document.getElementById('emailMini').href='mailto:amirajorloo@gmail.com?Subject=From%20Blog';
+
+    document.getElementById('bioPlate').innerHTML='';
+</script>
+{% endif %}
+
+</script>
+</html>

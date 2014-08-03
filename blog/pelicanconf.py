@@ -1,14 +1,13 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
-
 AUTHOR = u'Mirad'
-SITENAME = u'Mirad'
+SITENAME = u'وبلاگ | میراد'
 SITEURL = ''
 
 PATH = 'content'
 
-TIMEZONE = 'Europe/Paris'
+TIMEZONE = 'Asia/Tehran'
 
 DEFAULT_LANG = u'fa'
 
@@ -28,6 +27,8 @@ SOCIAL = (('You can add links in your config file', '#'),
           ('Another social link', '#'),)
 
 DEFAULT_PAGINATION = 10
-
+THEME='miradTheme'
+PLUGIN_PATHS = ["plugins"]
+PLUGINS = ["jalali"]
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
