@@ -1,8 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fa">
 <head>
         <title>{% block title %}{{ SITENAME }}{%endblock%}</title>
-        <meta charset="utf-8" />
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta name="keywords" lang="fa" content="{{ META_FA_KEYWORDS }}" charset="utf-8">
+        <meta name="keywords" lang="en" content="{{ META_EN_KEYWORDS }}">
+        <meta name="description" content="{{ META_DESC }}" charset="utf-8" />
+        <meta name="subject" content="{{ META_SUBJECT }}" />
+
+
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="shortcut icon" href="{{ SITEURL }}/theme/images/favicon.ico"/>
         <link rel="stylesheet" href="{{ SITEURL }}/theme/css/{{ CSS_FILE }}" type="text/css" />
