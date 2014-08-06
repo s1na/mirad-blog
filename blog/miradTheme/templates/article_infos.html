@@ -2,7 +2,7 @@
 	<ul align="right" dir="rtl" >
 	{% if article.author %}
         <li class="vcard author"style="float:right;">
-                 توسط&nbsp;<a class="url fn" href="{{ SITEURL }}/{{ article.author.url }}">{{ article.author }}</a>
+                 توسط&nbsp;<a target="_blank" class="url fn" href="{{ SITEURL }}/{{ article.author.url }}">{{ article.author }}</a>
         </li>
         {% endif %}
         <li class="published" title="{{ article.date.isoformat() }}" style="float:right;">
