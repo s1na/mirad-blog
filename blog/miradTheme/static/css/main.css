@@ -833,5 +833,19 @@ i
 	font-style: normal !important;
 	font-family: fontello;
 }
-
-
+.indexLink
+{
+	color:#000000 !important;
+    -webkit-transition: color 0.3s ease;
+    -moz-transition: color 0.3s ease;
+    -o-transition: color 0.3s ease;
+    transition: color 0.3s ease;
+}
+.indexLink:hover,.indexLink:active,.indexLink:focus
+{
+	color:#0E496B !important;
+	-webkit-transition: color 0.3s ease;
+	-moz-transition: color 0.3s ease;
+	-o-transition: color 0.3s ease;
+	transition: color 0.3s ease;
+}
