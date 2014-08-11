@@ -25,6 +25,15 @@
 }
 @font-face
 {
+  font-family:proLight;
+  src: url('../font/SourceSansPro-Light.eot');
+  src: url('../font/SourceSansPro-Light.ttf') format("truetype"),
+  url('../font/SourceSansPro-Light.eot') format('embedded-opentype'),
+  url('../font/SourceSansPro-Light.woff') format('woff');
+  
+}
+@font-face
+{
   font-family:bmitra;
   src: url('../font/bmitra.eot');
   src: url('../font/bmitra.ttf') format("truetype"),
@@ -852,5 +861,5 @@ i
 .englishText
 {
   font-family: proLight;
-  font-size:1em;
+  font-size:0.9em;
 }
