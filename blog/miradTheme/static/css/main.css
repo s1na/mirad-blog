@@ -849,3 +849,8 @@ i
 	-o-transition: color 0.3s ease;
 	transition: color 0.3s ease;
 }
+.englishText
+{
+  font-family: proLight;
+  font-size:1em;
+}
