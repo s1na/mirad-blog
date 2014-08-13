@@ -863,9 +863,27 @@ i
   font-family: proLight;
   font-size:0.9em;
 }
+.englishRefrence
+{
+  font-family: proLight;
+  font-size:0.4em;
+}
 article ul
 {
 	padding-right: 3em;
 	font-family: bmitra;
+	font-size:1em;
+}
+.footnote ol
+{
+	font-family: proLight;
+	font-size: 0.9em;
+	margin-right: 2em;
+	margin-left: 0px;
+}
+.footnote ol li p
+{
+	margin-bottom: 0.3em;
+	font-family: proLight;
 	font-size:1em;
 }
