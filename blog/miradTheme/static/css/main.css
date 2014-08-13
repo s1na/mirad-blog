@@ -870,6 +870,7 @@ i
 }
 article ul
 {
+	direction: rtl;	
 	padding-right: 3em;
 	font-family: bmitra;
 	font-size:1em;
@@ -877,6 +878,7 @@ article ul
 .footnote ol
 {
 	font-family: proLight;
+	direction: rtl;
 	font-size: 0.9em;
 	margin-right: 2em;
 	margin-left: 0px;
