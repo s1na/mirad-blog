@@ -889,3 +889,10 @@ article ul
 	font-family: proLight;
 	font-size:1em;
 }
+.footnote-ref
+{	
+	position: relative;
+	top:-0.4em;
+	font-size: 0.7em;
+
+}
