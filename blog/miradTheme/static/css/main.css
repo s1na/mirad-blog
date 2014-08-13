@@ -863,3 +863,9 @@ i
   font-family: proLight;
   font-size:0.9em;
 }
+article ul
+{
+	padding-right: 3em;
+	font-family: bmitra;
+	font-size:1em;
+}
