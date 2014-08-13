@@ -894,5 +894,9 @@ article ul
 	position: relative;
 	top:-0.4em;
 	font-size: 0.7em;
-
+}
+.footnote-backref
+{
+	position: relative;
+	top:0.2em;
 }
