@@ -875,6 +875,11 @@ article ul
 	font-family: bmitra;
 	font-size:1em;
 }
+article ul li
+{
+	text-align: right;
+}
+
 .footnote ol
 {
 	font-family: proLight;
