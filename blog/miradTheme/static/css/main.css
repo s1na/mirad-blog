@@ -863,3 +863,45 @@ i
   font-family: proLight;
   font-size:0.9em;
 }
+.englishRefrence
+{
+  font-family: proLight;
+  font-size:0.4em;
+}
+article ul
+{
+	direction: rtl;	
+	padding-right: 3em;
+	font-family: bmitra;
+	font-size:1em;
+}
+article ul li
+{
+	text-align: right;
+}
+
+.footnote ol
+{
+	font-family: proLight;
+	direction: rtl;
+	font-size: 0.9em;
+	margin-right: 2em;
+	margin-left: 0px;
+}
+.footnote ol li p
+{
+	margin-bottom: 0.3em;
+	font-family: proLight;
+	font-size:1em;
+}
+.footnote-ref
+{	
+	position: relative;
+	top:-0.4em;
+	font-size: 0.7em;
+}
+.footnote-backref
+{
+	position: relative;
+	top:0.2em;
+}
