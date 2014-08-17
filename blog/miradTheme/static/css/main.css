@@ -25,6 +25,15 @@
 }
 @font-face
 {
+  font-family:proLight;
+  src: url('../font/SourceSansPro-Light.eot');
+  src: url('../font/SourceSansPro-Light.ttf') format("truetype"),
+  url('../font/SourceSansPro-Light.eot') format('embedded-opentype'),
+  url('../font/SourceSansPro-Light.woff') format('woff');
+  
+}
+@font-face
+{
   font-family:bmitra;
   src: url('../font/bmitra.eot');
   src: url('../font/bmitra.ttf') format("truetype"),
@@ -848,4 +857,9 @@ i
 	-moz-transition: color 0.3s ease;
 	-o-transition: color 0.3s ease;
 	transition: color 0.3s ease;
+}
+.englishText
+{
+  font-family: proLight;
+  font-size:0.9em;
 }

@@ -30,6 +30,8 @@ DEFAULT_PAGINATION = 10
 THEME='miradTheme'
 PLUGIN_PATHS = ["plugins"]
 PLUGINS = ["jalali"]
+
+FEED_ALL_RSS = 'feeds/all.rss.xml'
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 GZIP_CACHE = True
