@@ -84,7 +84,7 @@ body {
 /* Headings */
 /* Actual sizes are 8/5 the stated. */
 h1 {font-size: 3.2em }
-h2 {font-size: 2.7424em; margin-bottom: .333em;}	/* 22px */
+h2 {font-size: 2.1424em; margin-bottom: .333em; font-family: 'bbc'; text-align: right; direction: rtl;}	/* 22px */
 h3 {font-size: 2.2864em}	/* 20px */
 h4 {font-size: 2.0576em}	/* 18px */
 h5 {font-size: 1.8288em}	/* 16px */
@@ -93,8 +93,9 @@ h6 {font-size: 1.6em}		/* 14px */
 h1, h2, h3, h4, h5, h6 {
 	/* font-weight: 400; */
 	line-height: 1.1;
+	text-align: right;
 	margin-bottom: .8em;
-    font-family: 'Avenir Next', sans-serif;
+    font-family: 'dinar', sans-serif;
 }
 
 h3, h4, h5, h6 { margin-top: .8em; }
@@ -139,6 +140,7 @@ h1 a:hover {
 /* Paragraphs */
 p {margin-bottom: 1.143em; color:#333 ; font-size:1.6em;font-family: bmitra;direction: rtl;text-align: right;}
 pre {margin-bottom: 1.143em; padding: 4px; font-size:1.6em}
+
 
 strong, b {font-weight: bold; color: #333;}
 em, i {font-style: italic;}
@@ -200,7 +202,13 @@ dd {margin-left: 1.5em;}
 /* Quotes */
 blockquote {
     margin: 20px;
+    font-size: 5em;
     font-style: italic;
+}
+
+blockquote p {
+	font-size: 1.1em;
+
 }
 cite {}
 

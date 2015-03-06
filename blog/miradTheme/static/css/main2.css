@@ -48,6 +48,8 @@ h6 {font-size: 1em}		/* 14px */
 h1, h2, h3, h4, h5, h6 {
 	font-weight: 700;
 	line-height: 1.1;
+	text-align: right;
+	direction: rtl;
 	margin-bottom: .8em;
 	font-family: 'Quicksand';
 }
