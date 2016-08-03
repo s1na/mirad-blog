@@ -10,7 +10,7 @@ env.deploy_path = 'output'
 DEPLOY_PATH = env.deploy_path
 
 # Remote server configuration
-production = 'mirad@mirad.ir:22'
+production = 'mirad@api:22'
 dest_path = '/home/mirad/blog/'
 
 # Rackspace Cloud Files configuration settings

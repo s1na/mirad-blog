@@ -4,7 +4,7 @@ import khayyam
 def miladiToShamsi(year,month,day,hour,minute,second):
 	#temp=datetime(year,month,day,hour,minute,second,0).astimezone(utc)
 	now = datetime.datetime(year,month,day,hour,minute,second,0)
-	jalali_now = khayyam.JalaliDatetime.from_datetime(now)
+	jalali_now = khayyam.JalaliDatetime(now)
 	return jalali_now.strftime("%C")
 
 def jalali(article_generator):
